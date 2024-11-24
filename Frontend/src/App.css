@@ -1,0 +1,9 @@
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.products{
+    width: fit-content;
+    padding-left: 3vw;
+}
