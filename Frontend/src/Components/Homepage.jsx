@@ -27,14 +27,14 @@ function Homepage() {
   return (
     <>
           <h1 style={{color:"white" , fontSize:"20px" , paddingLeft:"12px" , paddingTop:"10px"}}>{`Total products : ${count}`}</h1>
-      <div className="container" style={{display:"flex" , width:"100vw" , justifyContent:"center"}}>
+      <div className="container" style={{display:"flex" , boxShadow:"none" , width:"100vw" , justifyContent:"center"}}>
       <div className="products" style={{width:"fit-content" , blockSize: "fit-content"}}>
       {
-        products.map((value)=>{
+        products.map((value,index)=>{
           return (
-            <>
-            <Card name={value.name} price={value.price} image={value.image} url={value._id} />
-            </>
+            
+            <Card key={index} name={value.name} price={value.price} image={value.image} url={value._id} />
+           
           )
         })
       }

@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.signin span{
+    color: white;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 0px 0px 10px yellow;
+
+}
+.input-name{
+    color: white;
+    font-weight: bolder;
+}
+.input{
+    padding: 10px;
+    font-weight: bold;
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+}
+.submit-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.submit-btns > *{
+    background-color: #0B5ED7;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2vh;
+}
+.forgot-password span{
+    font-weight: bolder;
+    color: #5393f4;
+    
+}
+.forgot-password{
+    font-weight: bolder;
+    color: white;
+
+}
+.signin-btn{
+    background-color: #0B5ED7;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2vh;
+}
+.login-btn{
+    background-color: #0B5ED7;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2vh;
+}

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import { useState } from 'react'
 import axios from 'axios'
 
-function AddProduct() {
+function AddProduct({id}) {
 
     const [name, setName] = useState("")
     const [price, setPrice] = useState("")
@@ -31,7 +31,7 @@ function AddProduct() {
     </div>
   
     <button type="submit" className="btn btn-primary" onClick={()=>{
-        axios.post("http://localhost:5000/api/products" , {name:name , price:price , image:image} , {withCredentials:true})
+        axios.post("http://localhost:5000/api/products" , {name:name , price:price , image:image , owner_id:id} , {withCredentials:true})
         alert("Product added")
     }}>Add Product</button>
     <br />

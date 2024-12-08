@@ -14,8 +14,9 @@ function Navbar() {
     </button>
     <div className="collapse navbar-collapse position-relative" id="navbarNav">
         
-        <Link type="button" to="/addProduct" className="btn btn-primary" style={{position:"absolute" , right:"10px"}}>Add Product</Link>     
-  
+        <Link type="button" to="/Login" className="btn btn-primary" style={{position:"absolute" , right:"200px"}}>Login</Link>     
+        <Link type="button" to="/addProduct" className="btn btn-primary " style={{position:"absolute" , right:"10px"}}>Add Product</Link>     
+
     </div>
   </div>
 </nav>
