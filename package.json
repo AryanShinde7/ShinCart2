@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon Backend/server.js"
+    "server": "node Backend/server.js"
   },
   "keywords": [],
   "author": "",
